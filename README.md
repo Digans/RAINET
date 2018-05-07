@@ -21,18 +21,18 @@ The main scripts for this project were coded in an object-oriented environment, 
 ## Pipeline description:
 
 RAINET DB preparation:
-  ReadCatrapid.py (process catRAPID software data (licenced))
-  InsertionStrategy.py (for creating a RAINET database)
-  AnalysisStrategy.py (for filtering / stats of RAINET database)
+- ReadCatrapid.py (process catRAPID software data (licenced))
+- InsertionStrategy.py (for creating a RAINET database)
+- AnalysisStrategy.py (for filtering / stats of RAINET database)
  
 Enrichment analysis:
-  EnrichmentAnalysisStategy.py (produces main RNA-complex enrichment results)
-  FilterEnrichmentResults.py (for filtering / stats Enrichment analysis results)
-  CommonLncRNAProteinDisease.py (for matching lncRNA and protein disease)
+- EnrichmentAnalysisStategy.py (produces main RNA-complex enrichment results)
+- FilterEnrichmentResults.py (for filtering / stats Enrichment analysis results)
+- CommonLncRNAProteinDisease.py (for matching lncRNA and protein disease)
 
 Other post-analysis:
-  PrioritizeCandidates.py (for selecting enrichments with known interactions)
-  LncRNAGroupOddsRatio.py (for evaluating overlap of groups of lncRNAs against functional lncRNAs)
+- PrioritizeCandidates.py (for selecting enrichments with known interactions)
+- LncRNAGroupOddsRatio.py (for evaluating overlap of groups of lncRNAs against functional lncRNAs)
 
 ## Supported OS and required software:
 
